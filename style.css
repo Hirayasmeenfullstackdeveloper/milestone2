@@ -1,0 +1,92 @@
+body{
+    margin: 20px;
+    padding: 0;
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+form {
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 600px;
+  }
+
+h1 {
+    text-align: center;
+    color: black;
+
+}
+
+fieldset {
+    border: 2px solid rgb(75, 80, 82);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color:azure;
+
+}
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: rgb(34, 29, 29);
+
+}
+
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  input, textarea {
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #776e6e;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color:cadetblue;
+    color:black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    /* background-color:lightcoral ; */
+    color: aliceblue;
+  }
+  #resume-display {
+
+    max-width: 600px;
+
+    margin: auto;
+
+    padding: 20px;
+
+    border: 2px solid lightcyan;
+
+    border-radius: 8px;
+
+    background-color: gainsboro;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+}
+
+
+#resume-display h2 {
+
+    color: black;
+
+}
